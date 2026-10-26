@@ -1,0 +1,36 @@
+.header {
+  background-color: rgb(8, 150, 197);
+  text-align: center;
+  min-height: 15vh;
+}
+
+
+.main {
+  background-color: rgb(134, 90, 179);
+  text-align: center;
+  min-height: 45vh;
+}
+
+.esquerdo {
+  background-color: rgb(228, 162, 40);
+  font-size: 20px;
+}
+
+.direita {
+  background-color: rgb(149, 135, 109);
+  font-size: 30px;
+}
+
+.mainDiv {
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(8, 150, 197);
+  text-align: center;
+  min-height: 15vh;
+}

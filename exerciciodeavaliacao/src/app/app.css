@@ -1,0 +1,178 @@
+/* ==================================================
+   CABEÇALHO
+================================================== */
+
+header {
+
+    /* Centraliza o conteúdo do cabeçalho */
+    text-align: center;
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+}
+
+/* Aplica a animação ao título */
+.titulo {
+
+    /* Tamanho da fonte */
+    font-size: 50px;
+
+    /* Executa a animação ao carregar a página */
+    animation: aparecer 2s ease;
+}
+
+/* Cria a animação */
+@keyframes aparecer {
+
+    /* Estado inicial */
+    from {
+
+        /* Começa invisível */
+        opacity: 0;
+
+        /* Começa um pouco acima */
+        transform: translateY(-50px);
+    }
+
+    /* Estado final */
+    to {
+
+        /* Fica totalmente visível */
+        opacity: 1;
+
+        /* Volta para a posição normal */
+        transform: translateY(0);
+    }
+}
+
+
+/* ==================================================
+   NOME PRINCIPAL
+================================================== */
+
+h1 {
+
+    /* Cor de fundo do destaque */
+    background-color: rgba(55, 23, 218, 0.75);
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+    /* Arredonda os cantos */
+    border-radius: 20px;
+
+}
+
+
+/* ==================================================
+   SEÇÕES DA PÁGINA
+================================================== */
+
+section {
+
+    /* Centraliza o conteúdo */
+    text-align: center;
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+}
+
+
+/* ==================================================
+   RODAPÉ
+================================================== */
+
+footer {
+
+    /* Centraliza o texto */
+    text-align: center;
+
+    /* Tamanho da letra do rodapé */
+    font-size: 16px;
+
+    /* Cor de fundo semelhante ao destaque do nome */
+    background-color: rgba(187, 178, 232, 0.75);
+
+    /* Cor do texto */
+    color: rgb(11, 10, 10);
+
+    /* Espaço interno da caixa */
+    padding: 10px 20px;
+
+    /* Arredonda os cantos */
+    border-radius: 15px;
+
+    /* Cria uma sombra suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    /* Centraliza a caixa */
+    display: block;
+
+    /* Define a largura conforme o conteúdo */
+    width: fit-content;
+
+    /* Centraliza horizontalmente */
+    margin: 20px auto;
+
+     /* Linha acima do rodapé */
+    border-top: 3px solid rgb(55, 23, 218);
+
+  
+
+}
+
+
+/* ==================================================
+   LISTAS
+================================================== */
+
+ul {
+
+    /* Mantém a lista centralizada */
+    display: inline-block;
+
+    /* Alinha o texto à esquerda */
+    text-align: left;
+
+    /* Define a mesma largura para todas as listas */
+    width: 300px;
+
+}
+
+
+/* ==================================================
+   BOTÃO VOLTAR AO INÍCIO 
+================================================== */
+
+.botao-topo {
+
+    /* Faz o link parecer um botão */
+    display: block;
+
+    /* Centraliza */
+    width: fit-content;
+    margin: 20px auto;
+
+    /* Espaço interno */
+    padding: 10px 20px;
+
+    /* Cor de fundo */
+    background-color: rgb(241, 241, 246);
+
+    /* Cor do texto */
+    color: rgb(35, 17, 230);
+
+    /* Remove sublinhado */
+    text-decoration: none;
+
+    /* Arredonda os cantos */
+    border-radius: 10px;
+
+    /* Mãozinha ao passar o mouse */
+    cursor: pointer;
+
+}
+
+
