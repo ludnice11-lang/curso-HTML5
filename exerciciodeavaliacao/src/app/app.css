@@ -54,13 +54,19 @@ header {
 h1 {
 
     /* Cor de fundo do destaque */
-    background-color: rgba(55, 23, 218, 0.75);
+    background-color: rgba(38, 17, 147, 0.75);
 
     /* Espaçamento interno */
     padding: 20px;
 
     /* Arredonda os cantos */
     border-radius: 20px;
+
+    /* Cor do texto*/
+    color: white;
+
+    /* Sombra escura */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -77,7 +83,23 @@ section {
     /* Espaçamento interno */
     padding: 20px;
 
+    /* Fundo branco */
+    background-color: rgba(255, 255, 255, 0.85);
+
+    /* Arredonda os cantos */
+    border-radius: 15px;
+
+    /* Cria uma sombra suave em volta do cartão */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    /* Largura máxima do cartão */
+    max-width: 700px;
+
+    /* Espaço de 20px em cima e embaixo, e centraliza na horizontal */
+    margin: 20px auto;
+
 }
+
 
 
 /* ==================================================
@@ -93,10 +115,10 @@ footer {
     font-size: 16px;
 
     /* Cor de fundo semelhante ao destaque do nome */
-    background-color: rgba(187, 178, 232, 0.75);
+    background-color:rgba(38, 17, 147, 0.75);
 
     /* Cor do texto */
-    color: rgb(11, 10, 10);
+    color: rgb(243, 241, 241);
 
     /* Espaço interno da caixa */
     padding: 10px 20px;
@@ -119,7 +141,13 @@ footer {
      /* Linha acima do rodapé */
     border-top: 3px solid rgb(55, 23, 218);
 
-  
+}
+
+/* Parágrafos dentro do rodapé */
+footer p {
+
+    /* Sombra escura, para o texto claro não "sumir" */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -173,6 +201,33 @@ ul {
     /* Mãozinha ao passar o mouse */
     cursor: pointer;
 
+    /* Faz a mudança de cor acontecer devagar, em 0.3 segundos */
+    transition: 0.3s;
+
+
 }
+
+/* efeito ao passar o mouse */
+.botao-topo:hover {
+
+    /* cor do fundo */
+    background-color: rgba(38, 17, 147, 0.75);
+
+    /* cor da letra */
+    color: white;
+
+}
+
+/* Efeito ao passar o mouse nos links */
+a:hover {
+
+    /* Cor do fundo */
+    background-color: rgba(38, 17, 147, 0.75);
+
+    /* Cor da letra */
+    color: white;
+
+}
+
 
 
